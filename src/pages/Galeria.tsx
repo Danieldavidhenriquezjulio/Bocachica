@@ -29,7 +29,7 @@ const Galeria: React.FC = () => {
         .select('*')
         .order('created_at', { ascending: false });
 
-        console.log("Galería cargada:", data);
+        
       if (error) {
         console.error('Error al cargar imágenes:', error);
         return;
